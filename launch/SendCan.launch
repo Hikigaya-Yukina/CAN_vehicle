@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="controller" type="IVCU_VCUCmmand" name="IVCU_VCUCmmand" output="screen">
+    </node>   
+</launch>

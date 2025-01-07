@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="controller" type="Test_PC2VEH" name="Test_PC2VEH" output="screen">
+    </node>   
+</launch>

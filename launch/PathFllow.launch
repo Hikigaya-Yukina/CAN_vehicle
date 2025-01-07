@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <node pkg="controller" type="TestGlobalPath" name="TestGlobalPath">
+    </node> -->
+
+    <node pkg="controller" type="fuzzy_control_C1" name="fuzzy_control_C1"  output="screen">
+    </node>
+
+    <node pkg="controller" type="VcuFeedback_C1" name="VcuFeedback_C1" output="screen">
+    </node>
+
+    <node pkg="controller" type="AduComandC1" name="AduComandC1" output="screen">
+    </node> 
+</launch>

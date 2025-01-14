@@ -27,7 +27,6 @@ canplayer -I my_can_data.log
 # -g 或 --gap：设置两个消息之间的时间间隔（单位为秒），如 -g 0.1 会在每个消息间增加0.1秒的延迟。
 # -v 或 --verbose：提供更详细的输出信息。
 canplayer -I my_can_data.log -l -g 0.1
-
 ```
 滤波部分CAN信息
 ```bash

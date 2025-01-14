@@ -92,6 +92,7 @@ int main(int argc, char *argv[])
 
 void Callback(const controller::VcuCommandC1::ConstPtr& controllerCmd)
 {
+    ROS_INFO("VCU CAN发送成功！ \n");
     m_command.Vehicle_spd       = controllerCmd->Vehicle_spd;
     m_command.Crt_set           = controllerCmd->Crt_set;
     m_command.Load_gain         = controllerCmd->Load_gain;

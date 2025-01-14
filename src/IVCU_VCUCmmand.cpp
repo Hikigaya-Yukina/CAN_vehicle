@@ -67,10 +67,10 @@ int main(int argc, char *argv[])
     int i = 0;
     while (ros::ok())
     {
-        //暂时在这里添加一个校验计数器
-        if(i % 16 == 0) i = 0;
-        else i++;
-        m_command.Cyclic_check = i;
+        // //暂时在这里添加一个校验计数器
+        // if(i % 16 == 0) i = 0;
+        // else i++;
+        // m_command.Cyclic_check = i;
         
         EncodeVcuCanFrame_(Data_frame[0].data, &m_command);
         nbytes = write(s, &Data_frame[0], sizeof(Data_frame[0]));

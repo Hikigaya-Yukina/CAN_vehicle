@@ -34,3 +34,8 @@ candump can0,123:7FF,456:7FF
 #在这个例子中，掩码 7FF 指的是在比较时会考虑所有位（对于标准帧）。
 #因为标准 CAN ID 的长度是 11 位，所以 7FF 就是 11 位都为 1 的二进制数，确保只有完全匹配 123 和 456 的 ID 才会被接收。
 ```
+
+动态参数设置
+```bash
+rosrun rqt_reconfigure rqt_reconfigure
+```

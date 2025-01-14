@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   nav_msgs
   tf
+  dynamic_reconfigure
 )
 
  add_message_files(
